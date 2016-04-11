@@ -147,7 +147,7 @@
         "scripts/centos/networking.sh",
         "scripts/common/vagrant.sh",
         "scripts/common/vmtools.sh",
-        "scripts/centos/cleanup.sh",
+        "scripts/centos/cleanup-lain.sh",
         "scripts/common/minimize.sh"
       ],
       "type": "shell"

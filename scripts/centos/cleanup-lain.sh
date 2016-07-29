@@ -59,5 +59,5 @@ rm -f VBoxGuestAdditions_*.iso VBoxGuestAdditions_*.iso.?;
 
 # Disable stupid "Predictable Network Interface Names"
 # Ref: https://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/
-# echo GRUB_CMDLINE_LINUX_DEFAULT="net.ifnames=0" >> /etc/default/grub
-# grub2-mkconfig -o /boot/grub2/grub.cfg
+echo GRUB_CMDLINE_LINUX_DEFAULT="net.ifnames=0" >> /etc/default/grub
+grub2-mkconfig -o /boot/grub2/grub.cfg

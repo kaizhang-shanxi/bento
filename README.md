@@ -9,7 +9,7 @@ naming from Network Manager on RHEL/CentOS
 ## 与 [chef/bento](https://github.com/chef/bento) 的不同
 
 合并了 flex 对 [Predictable Network Interface
-Names](https://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/) 禁用
+Names](https://www.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/) 的禁用
 
 ## [最终的脚本](https://github.com/kaizhang-shanxi/bento/blob/master/scripts/centos/cleanup-lain.sh)
 
@@ -25,4 +25,4 @@ cd bento
 bin/bento build  -m file:///Users/flex/Soft/ISO/ centos-lain-7.2-x86_64.json
 ```
 
-> **重要**：是 `cent-lain-7.2-x86_64.json`，不是 `cent-7.2-x86_64.json`。
+> **重要**：是 `centos-lain-7.2-x86_64.json`，不是 `centos-7.2-x86_64.json`。
